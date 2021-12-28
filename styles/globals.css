@@ -11,7 +11,7 @@
   }
   @layer components {
     .select-navigation {
-      @apply bg-white text-black;
+      @apply bg-white text-black pointer-events-none;
     }
     .select-crew {
       @apply bg-white pointer-events-none;
