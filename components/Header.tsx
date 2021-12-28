@@ -22,23 +22,20 @@ useEffect(()=>{
    
    const selectionMenu = () => {
      if(window.innerWidth >= 640){
-       li[0].addEventListener("click", () => {
-         addClass();
-         li[0].classList.remove("border-transparent")
-       })
-       li[1].addEventListener("click", () => {
-        addClass();
-        li[1].classList.remove("border-transparent")
-      })
-      li[2].addEventListener("click", () => {
-        addClass();
-        li[2].classList.remove("border-transparent")
-      })
-      li[3].addEventListener("click", () => {
-        addClass();
-        li[3].classList.remove("border-transparent")
-      })
-     }
+         if(router.query.category == "crew"){
+             addClass();
+             li[2].classList.remove("border-transparent")
+          } else if(router.query.category == "technology"){
+                   addClass();
+                   li[3].classList.remove("border-transparent")
+            } else if(router.query.category == "destination"){
+                    addClass();
+                    li[1].classList.remove("border-transparent")
+          } else {
+            addClass();
+            li[0].classList.remove("border-transparent")
+          }
+      }
    }
 
    selectionMenu()
