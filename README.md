@@ -13,7 +13,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Space Tourism](https://space-tourism-website-olive.vercel.app/)
 
 ### Built with
 
