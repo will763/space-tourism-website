@@ -4,10 +4,11 @@ Multi-page space tourism website.
 
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
-### Screenshot
+### Gif
 
-
-
+<h1 align="center">
+<img alt="gif" src="https://github.com/will763/space-tourism-website/blob/main/public/show.gif"    />
+</h1>
 
 
 
